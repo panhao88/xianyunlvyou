@@ -1,0 +1,63 @@
+.d-f{
+    display: flex;
+}
+.j-c-a{
+    justify-content: space-around;
+}
+.j-c-b{
+    justify-content: space-between;
+}
+.j-c{
+    justify-content: center;
+}
+.f-d-c{
+    flex-direction: column;
+}
+.a-c{
+    align-items: center;
+}
+.h-8{
+    height: 80px;
+}
+.f-s{
+    font-size: 25px;
+}
+.f-c-hong{
+    color: #f00;
+    /* 红色 */
+}
+.f-c-hui{
+    color: #ccc;
+    /* 灰色 */
+}
+.f-c-bai{
+    color: #ffffff;
+    /* 白色 */
+}
+.f-c-hei{
+    color: #000;
+    /* 黑色 */
+}
+.p-r{
+    position: relative;
+}
+.p-a{
+    position: absolute;
+}
+.p-f{
+    position: fixed;
+}
+.w-o-t{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 超出部分隐藏（只限字体） */
+}
+多行显示省略号
+.t-a-c{
+    text-align: center;
+    /* 文本居中 */
+}
+.m-t-2{
+    margin-top: 20px;
+}

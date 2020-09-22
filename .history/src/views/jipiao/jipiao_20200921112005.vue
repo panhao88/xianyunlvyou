@@ -1,0 +1,40 @@
+<template>
+ <div>
+
+ </div>
+</template>
+
+<script lang='ts'>
+import {defineComponent, reactive, toRefs, SetupContext} from 'vue'
+import { useRouter, useRoute } from "vue-router";
+interface Data {
+     chufa:string
+  daoda:string
+  kong:string
+  day:string
+}
+ export default defineComponent({
+   name: '',
+   props: {
+   },
+   components: {
+
+   },
+setup(props, ctx: SetupContext){
+     const router = useRouter();
+    const route = useRoute()
+let data: Data = reactive<Data>({
+    chufa:'',
+    daoda:'',
+    day:''
+})
+return {
+...toRefs(data),
+}
+},
+ })
+</script>
+
+<style scoped lang='scss'>
+
+</style>

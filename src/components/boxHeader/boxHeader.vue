@@ -14,7 +14,7 @@
 
 <script lang='ts'>
 import { defineComponent, reactive, toRefs, SetupContext ,onMounted} from "vue";
-import {useRouter} from 'vue-router'
+import {useRouter,useRoute} from 'vue-router'
 interface shouye {
   name: string;
   path: string;
@@ -36,6 +36,7 @@ export default defineComponent({
       ],
     });
     let router = useRouter();
+    let route = useRouter();
     let dianji = (item:any): void => {
       router.push(item.path)
       // data.flag = index
